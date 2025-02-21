@@ -1,0 +1,165 @@
+.product{
+    flex: 4;
+    padding: 1.5rem;
+
+}
+
+.productTitleContainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productTitle{
+    color: rgb(32, 32, 32);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.productAddButton{
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    width: 10rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    background-color: rgb(149, 149, 245);
+}
+
+.productTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.productTopRight{
+    flex:1;
+}
+.productTopLeft{
+    margin-top: 2rem;
+    flex: 2;
+}
+.productTopRight{
+    padding: 3rem;
+    margin: 1rem;
+    margin-top: -5rem;
+    margin-right: 9rem;
+    box-shadow: 0 0 15px -10px rgba(0,0,0,0.75);
+}
+
+
+.productInfoTop{
+    display: flex;
+    align-items: center;
+    
+}
+
+.productImgInfo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+
+.productName{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.productInfoBottom
+{
+    margin-top: 1rem;
+}
+
+.productInfoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.productInfoKey{
+    font-weight: 600;
+    font-size: 20;
+}
+
+.productInfoValue{
+    font-weight: 400;
+    font-size: 20;
+}
+
+.productBottom{
+    padding: 3rem;
+    margin: 3rem;
+    box-shadow: 0 0 15px -10px rgba(0,0,0,0.75);
+}
+
+.productForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.productFormLeft > label {
+ 
+ color: rgb(102, 102, 102);
+ font-weight: 400;
+ font-size: 20;
+}
+
+.productFormLeft > input{
+    border: none;
+    border-bottom:1px solid rgb(215, 190, 255);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.productFormLeft > input:focus{
+    outline: none;
+}
+.productFormLeft > select{
+    border:1px solid rgb(215, 190, 255);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+#inStockSelect{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.productFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.productUploader{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.productUploadImg{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.productUploadButton{
+    border: none;
+    padding: 0.75rem;
+    color: white;
+    background-color: rgb(149, 149, 245);
+    font-size: 16px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

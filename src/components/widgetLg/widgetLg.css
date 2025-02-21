@@ -1,0 +1,74 @@
+.widgetLg{
+    flex: 5;
+    padding:1rem;
+    box-shadow: 0 0 15px -10px rgba(0,0,0,0.7);
+}
+
+.WidgetLgTitle{
+    font-size: 22px;
+    font-weight: 600;
+   
+    margin: 1.5rem;
+}
+.widgetLgTable{
+    width: 100%;
+    border-spacing: 1rem;
+    margin-top: 1rem;
+}
+.widgetLgAvatar{
+    width:2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 0.5rem;
+}
+
+.widgetLgTh{
+    text-align: start;
+}
+
+.widgetLgTr{
+    text-align: start;
+}
+
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+}
+
+.widgetLgDate, .widgetLgPrice,.widgetLgName{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.widgetLgButton{
+  padding: 0.3rem 0.5rem;
+  font-size: 14px;
+  border-radius: 10%;
+}
+
+.success{
+  color: rgb(18, 158, 72);
+  border: 1px solid rgb(18, 158, 72);
+  background-color: rgb(192, 248, 210);
+}
+
+.pending{
+    color: rgb(206, 192, 1);
+    border: 1px solid rgb(206, 192, 1);
+    background-color: rgb(248, 244, 179);
+  }
+
+  .decline{
+    color: rgb(250, 51, 61);
+    border: 1px solid rgb(250, 51, 61);
+    background-color: rgb(255, 210, 212);
+  }
+
+  .widgetLgTr {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.widgetLgTr:last-child {
+    margin-bottom: 0; /* Remove margin for the last row */
+}

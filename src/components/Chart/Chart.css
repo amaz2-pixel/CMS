@@ -1,0 +1,12 @@
+.chartTitle{
+   margin: 1rem ;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.chart{
+    padding: 2rem;
+    margin-right: 3rem;
+    width: 100%;
+    box-shadow: 0 0 15px -10px rgba(0,0,0,0.7);
+}

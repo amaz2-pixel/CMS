@@ -1,0 +1,75 @@
+.userList{
+    flex: 4;
+
+}
+
+.userListUser{
+    display: flex;
+    align-items: center;
+}
+
+.userListAvatar{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userListUsername{
+    margin-right: 1rem;
+    font-size: 14px;
+}
+
+
+
+.Active{
+    color: rgb(18, 158, 72);
+    border: 1px solid rgb(18, 158, 72);
+    background-color: rgb(192, 248, 210);
+}
+
+.Inactive{
+    color: rgb(206, 192, 1);
+    border: 1px solid rgb(206, 192, 1);
+    background-color: rgb(248, 244, 179);
+}
+
+.Suspended{
+    color: rgb(250, 51, 61);
+    border: 1px solid rgb(250, 51, 61);
+    background-color: rgb(255, 210, 212);
+}
+
+.userListActions{
+    display: flex;
+    margin: 1rem;
+}
+
+.userListIconButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    border: none;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.userListBannIcon,.userListDeleteIcon,.userListEditIcon{
+    color: rgb(207, 207, 207);
+}
+
+.userListEditIcon:hover{
+    color: rgb(44, 124, 245);
+}
+
+.userListDeleteIcon:hover{
+    color: rgb(252, 81, 81);
+}
+
+.userListBannIcon:hover{
+    color: rgb(247, 247, 77);
+}

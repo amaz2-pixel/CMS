@@ -1,0 +1,53 @@
+.features {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-right: 2rem; /* Keep the margin */
+}
+
+.featureItem{
+    flex: 1;
+    margin: 1rem;
+    padding :3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px -10px rgba(0,0,0,0.7);
+    max-width: fit-content;
+}
+
+.featureTitle{
+    font-size: 22px;
+}
+
+.featureContainer{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.featureAmount{
+    font-size: 30px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.featureRate{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.featureIcon{
+    margin-right: 3px;
+    font-size: 20px;
+    color: green;
+}
+
+.featureIcon.negative{
+    color: red;
+}
+
+.featuredetail{
+    color: gray;
+    font-size: 16px;
+}
